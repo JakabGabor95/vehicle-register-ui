@@ -6,7 +6,7 @@
 
     <groupId>hu.ltk.jakabgabor</groupId>
     <artifactId>vehcile-register-ui</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <dependencies>
         <dependency>
