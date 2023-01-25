@@ -17,6 +17,9 @@ public class VehicleModel {
         this.vehicleType = vehicleType;
     }
 
+    public VehicleModel() {
+    }
+
     @Override
     public String toString() {
         return "VehicleModel{" +
@@ -26,5 +29,45 @@ public class VehicleModel {
                 ", numberOfSeats=" + numberOfSeats +
                 ", vehicleType=" + vehicleType +
                 '}';
+    }
+
+    public String getRegistrationNumber() {
+        return registrationNumber;
+    }
+
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setRegistrationNumber(String registrationNumber) {
+        this.registrationNumber = registrationNumber;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
+    }
+
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
     }
 }

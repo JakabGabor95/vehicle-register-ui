@@ -1,0 +1,7 @@
+hu/ltk/jakabgabor/models/VehicleModel.class
+hu/ltk/jakabgabor/controller/VehicleUiController.class
+hu/ltk/jakabgabor/parser/JsonParser.class
+hu/ltk/jakabgabor/view/View.class
+hu/ltk/jakabgabor/validators/VehicleValidator.class
+hu/ltk/jakabgabor/presenter/Presenter.class
+hu/ltk/jakabgabor/exceptions/VehicleNotFoundException.class
